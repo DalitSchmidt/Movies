@@ -1,0 +1,13 @@
+{
+    "require": {
+        "slim/slim": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Codecourse\\": "app/Codecourse"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "6.0"
+    }
+}
