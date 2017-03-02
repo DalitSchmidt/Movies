@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Movie",
+  "description": "A movie",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "The unique identifier for a product",
+      "type": "integer"
+    },
+    "name": {
+      "description": "Name of the movie",
+      "type": "string"
+    },
+    "year": {
+      "type": "string",
+      "length": 4
+    }
+  },
+  "required": ["id", "name", "year"]
+}
